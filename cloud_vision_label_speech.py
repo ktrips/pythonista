@@ -8,7 +8,7 @@ import console
 import speech
 
 GOOGLE_CLOUD_VISION_API_URL = 'https://vision.googleapis.com/v1/images:annotate?key='
-API_KEY = 'YOUR-GOOGLE-CLOUD-VISION-API-KEY
+API_KEY = 'YOUR-GOOGLE-CLOUD-VISION-API-KEY'
 def goog_cloud_vison (image_content):
     api_url = GOOGLE_CLOUD_VISION_API_URL + API_KEY
     req_body = json.dumps({
